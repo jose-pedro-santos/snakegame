@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Sedgwick+Ave&display=swap');
+
+
+body {
+  background-color:rgb(32, 31, 31);
+  overflow: hidden; /* Hide scrollbars */
+}
+
+
+.titlestart {
+  width: 410px;
+  font-family: "Sedgwick Ave";
+  font-size: 130px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin:auto;
+  padding-top: 35px;
+  background-image: linear-gradient(
+    50deg,
+    #CA4246 20%, 
+    #E16541 20%, 
+    #F18F43 30%, 
+    #F18F43 40%, 
+    #8B9862 50%, 
+    #8B9862 60%, 
+    #476098 70%, 
+    #476098 75%, 
+    #A7489B 85%);
+
+background-size: 100%;
+background-repeat: repeat;
+
+
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+} 
+
+
+
+/* DIV QUE CONTÊM OS DOIS BLOCOS (SIGNUP E LOGIN */
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+
+/* BLOCO DO SIGNUP */
+.signup {
+  color: rgb(206, 195, 195);
+  font-family: "Cabin";
+  font-size: 13px;
+  background-color:rgb(37, 36, 36);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 30px;
+  height: 415px;
+  width: 470px;
+  margin-right: 50px;
+  padding: 12px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+
+.signup h2 {
+  color: rgb(230, 223, 223);
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 35px;
+  
+}
+
+/* BLOCO DO LOGIN */
+.login {
+  color: rgb(230, 223, 223);
+  font-family: "Cabin";
+  background-color:rgb(37, 36, 36);
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  border-radius: 30px;
+  height: 415px;
+  width: 470px;
+  padding: 12px 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+
+.login h2 {
+  color: rgb(230, 223, 223);
+  font-size: 30px;
+  line-height: 0px;
+}
+
+.headerlogin {
+  font-size: 18px;
+  height: 100px;
+  /* border:1px solid yellow; */
+}

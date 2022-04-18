@@ -1,0 +1,207 @@
+.matrix {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlemap {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 180px;
+    font-family: "Sedgwick Ave";
+    font-size: 50px;
+    /* justify-content: flex-start; */
+    /* align-items: flex-end; */
+    /* margin-left: 30%; */
+    margin-left: 595px;
+    margin-top: 0px;
+    /* margin-bottom: 15px; */
+    background-image: linear-gradient(
+    50deg,
+    #CA4246 20%, 
+    #E16541 20%, 
+    #F18F43 30%, 
+    #F18F43 40%, 
+    #8B9862 50%, 
+    #8B9862 60%, 
+    #476098 70%, 
+    #476098 75%, 
+    #A7489B 85%);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.cell {
+    width: 34px;
+    height: 34px;
+    /* border: black solid 1px; */
+    /* margin: 1vmin; */
+}
+
+.content {
+    background-size: 34px;
+    /* background-size: 46px; */
+    background-image: url("./grassReal.png.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: MediumAquaMarine; */
+}
+
+.headR {
+    transform: rotate(270deg);
+    background-size: 35px;
+    background-image: url("./quare.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headL {
+    transform: rotate(90deg);
+    background-size: 35px;
+    background-image: url("./quare.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headDOWN {
+    background-size: 35px;
+    background-image: url("./quare.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headUP {
+    transform: rotate(180deg);
+    background-size: 35px;
+    background-image: url("./quare.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+
+.snake {
+    background-size: 35px;
+    width: 34px;
+    height: 34px;
+    background-color: #00ff37
+}
+
+.block {
+    background-image: url("./images.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: black */
+}
+
+.fruit {
+    background-size: contain;
+    background-image: url("./Macas.jpg");
+    width: 34px;
+    height: 34px;
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+}
+
+.grid {
+    margin-top: -30px;
+    display: grid;
+    justify-content: center;
+    border: solid DarkOliveGreen 2px;
+    border-width: 20px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.All {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid DarkOliveGreen; */
+}
+
+/* .food{
+    background-color: ;
+} */
+
+.score {
+    font-family: "Cabin";
+    /* position: absolute; */
+    font-size: 50px;
+    color: white;
+    display: flex;
+    position: absolute;
+    margin-right: -1200px;
+    margin-top: -870px
+}
+
+.gameover {
+    color: rgb(206, 195, 195);
+    font-family: "Cabin";
+    background-color:rgb(37, 36, 36);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    border-radius: 40px;
+    height: 415px;
+    width: 520px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 170px;
+    color: white;
+    font-size: 95px;
+    font-weight: bold;
+    position: absolute;
+    padding: 30px;
+    opacity: 0.78;
+}
+
+.restart {
+    font-family: "Cabin";
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    height: 110px;
+    width: 255px;
+    background-color: white;
+    top: -20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    border:  5px ridge rgb(179, 173, 173);
+}
+
+.restart:hover {
+    border: 4px solid transparent; /*2*/
+    background-image:linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    cursor: pointer;
+}
+
+.backbutton {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    background-image: url("./back.png");
+    background-size: cover;
+    cursor: pointer;
+    margin-top: -100px;
+    margin-left:-770px;
+    border: none;
+    position: absolute;
+}
